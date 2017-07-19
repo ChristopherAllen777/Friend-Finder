@@ -2,7 +2,7 @@
   "name": "friend-finder",
   "version": "1.0.0",
   "description": "full stack facebook friend finder",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/ChristopherAllen777/Friend-Finder/issues"
   },
-  "homepage": "https://github.com/ChristopherAllen777/Friend-Finder#readme"
+  "homepage": "https://github.com/ChristopherAllen777/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
 }
